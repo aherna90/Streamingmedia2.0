@@ -85,7 +85,6 @@ nav a {
     color: #ffffff;
     text-transform:uppercase;
 }
-
 #playlists-box img {
     float: left;
 }
@@ -96,7 +95,7 @@ nav a:hover {
 header {
     background-image: linear-gradient(to right, #030ABC, black);
 }
- section > h2 {
+section > h2 {
     font-weight: bold;
     padding: 1rem 1rem 1rem 2rem;
  }
@@ -177,6 +176,7 @@ footer p {
     color: #590242;
     background-color: #ffffff;
     text-align: center;
+    padding: 2em;
 }
 .container {
     display: inline-flex;
@@ -224,7 +224,7 @@ audio {
 }
 .more-box {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     padding: 1em;
 }
 div .more-box {
@@ -370,5 +370,16 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     nav > ul{
         width: 834px;
         height: fit-content;
+    }
+    .more-box {
+        display: flex;
+        justify-content: end;
+        padding: 1em;
+    }
+    nav, li{
+        height: 68px;
+    }
+    nav a {
+        height: 34px;
     }
 }
