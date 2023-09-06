@@ -45,7 +45,6 @@ table {
 /* sections & colors */
 * {
     box-sizing: content-box;
-    width: auto;
     margin:0 auto;
     padding:0;
 }
@@ -67,6 +66,9 @@ nav {
 }
 nav > ul{
     width: 375px;
+}
+li:first-child {
+    font-weight: bold;
 }
 nav h2 {
     visibility: hidden;
@@ -145,6 +147,9 @@ dd, dt {
     color:#590242
 }
 /* Written Code */
+em {
+    font-style: italic;
+}
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
