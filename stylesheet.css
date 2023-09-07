@@ -69,6 +69,9 @@ nav > ul{
 }
 li:first-child {
     font-weight: bold;
+    position: absolute;
+    left: 150px;
+    top: 5px
 }
 nav h2 {
     visibility: hidden;
@@ -98,41 +101,41 @@ header {
 section > h2 {
     font-weight: bold;
     padding: 1rem 1rem 1rem 2rem;
- }
- #playlists-box {
+}
+#playlists-box {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
- }
- #playlists-box > section {
+}
+#playlists-box > section {
     width: 100%;
- }
- #playlists {
+}
+#playlists {
     background-color: #0d8df8;
- }
+}
  #playlists section{
     background-color: #2699fb;
     text-align: center;
- }
+}
  #playlists h2 {
     background-color: #FFFFFF;
- }
+}
  #playlists h3, p  {
     color: #ffffff;
- }
- #curated {
+}
+#curated {
     background-color: #030abc;
- }
- #curated section {
+}
+#curated section {
     background-color: #020873;
     text-align: center;
- }
- #curated h2 {
+}
+#curated h2 {
     background-color: #FFFFFF;
- }
+}
  #curated h3, p{ 
     color: #FFFFFF;
- }
+}
 a {
     background-color: #590242;
     color: white;
@@ -381,5 +384,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
     nav a {
         height: 34px;
+    }
+    li:first-child{
+        position: static;
     }
 }
